@@ -1,6 +1,6 @@
 # Welcome to wifi-to-qrcode 👋
 
-![Version](https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000) [![Netlify Status](https://api.netlify.com/api/v1/badges/ec42dd76-1ef5-41ef-be0c-0fb6c6645883/deploy-status)](https://app.netlify.com/sites/nervous-nobel-87bcaa/deploys)
+![Version](https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000) [![Netlify Status](https://api.netlify.com/api/v1/badges/02e18da1-06aa-41e6-b047-398fb5b7f3a1/deploy-status)](https://app.netlify.com/sites/angry-jennings-ec25a9/deploys)
 
 Create a qrcode from WIFI for ease of use
 
