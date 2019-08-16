@@ -1,6 +1,6 @@
 {
-  "private": true,
   "name": "wifi-to-qrcode",
+  "author": "Wasuwat Limsuparhat<wasuwat.se@gmail.com>",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -10,21 +10,25 @@
     "dev": "preact watch",
     "lint": "eslint src"
   },
+  "dependencies": {
+    "preact": "^10.0.0-rc.1",
+    "preact-render-to-string": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-synacor": "^3.0.4",
+    "if-env": "^1.0.4",
+    "preact-cli": "^3.0.0-rc.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "IE >= 9",
+    "last 2 versions"
+  ],
   "eslintConfig": {
     "extends": "eslint-config-synacor"
   },
   "eslintIgnore": [
     "build/*"
-  ],
-  "devDependencies": {
-    "eslint": "^4.5.0",
-    "eslint-config-synacor": "^1.1.0",
-    "if-env": "^1.0.0",
-    "preact-cli": "^2.0.0"
-  },
-  "dependencies": {
-    "preact": "^8.2.1",
-    "preact-compat": "^3.17.0",
-    "preact-render-to-string": "^4.1.0"
-  }
+  ]
 }
