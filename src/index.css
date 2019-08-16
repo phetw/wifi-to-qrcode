@@ -13,19 +13,56 @@
 	--polar-med: #434c5e;
 	--polar-dark: #2e3440;
 
+	--blue: #7ec4d8;
+	--red: #bf616a;
+	--green: #a3be8c;
+	--yellow: #ebcb8b;
+
 	--box-shadow: rgba(184, 194, 215, 0.25) 0px 4px 6px,
 		rgba(184, 194, 215, 0.1) 0px 5px 7px;
 }
 
-body {
+* {
 	font-family: 'Montserrat', sans-serif;
+}
 
+body {
 	color: var(--polar-dark);
 	background-color: var(--snow-dark);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 h1,
 h2,
 h3 {
 	font-weight: 700;
+}
+
+button {
+	cursor: pointer;
+
+	margin: 1rem 0;
+	padding: 0.35rem 1rem;
+
+	background-color: transparent;
+
+	border-radius: 3px;
+	border-style: solid;
+	border-color: var(--polar-dark);
+
+	transition: color ease 250ms, border-color ease 250ms;
+}
+
+button:hover {
+	color: var(--polar-light);
+	border-color: var(--polar-light);
+}
+
+button + .secondary:hover {
+	/* opacity: 0.8; */
+	color: var(--green);
+	border-color: var(--green);
 }

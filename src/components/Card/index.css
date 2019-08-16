@@ -4,4 +4,7 @@ article {
 
 	box-shadow: var(--box-shadow);
 	background-color: var(--white);
+
+	max-width: 400px;
+	margin: 1rem 0;
 }
