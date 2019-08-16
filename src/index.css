@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap');
+
+:root {
+	/* nord-based color theme*/
+
+	--white: #f3f3f3;
+
+	--snow-light: #eceff4;
+	--snow-med: #e5e9f0;
+	--snow-dark: #d8dee9;
+
+	--polar-light: #4c566a;
+	--polar-med: #434c5e;
+	--polar-dark: #2e3440;
+
+	--box-shadow: rgba(184, 194, 215, 0.25) 0px 4px 6px,
+		rgba(184, 194, 215, 0.1) 0px 5px 7px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+
+	color: var(--polar-dark);
+	background-color: var(--snow-dark);
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 700;
+}
