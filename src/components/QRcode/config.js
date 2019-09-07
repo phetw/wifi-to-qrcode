@@ -1,8 +1,8 @@
-const ERROR_CORRECTION_LEVEL = 'H';
+const ERROR_CORRECTION_LEVEL = 'H'
 
 export const CANVAS_GENERATOR_OPTIONS = {
-	errorCorrectionLevel: ERROR_CORRECTION_LEVEL,
-};
+	errorCorrectionLevel: ERROR_CORRECTION_LEVEL
+}
 
 export const IMAGE_GENERATOR_OPTIONS = {
 	errorCorrectionLevel: ERROR_CORRECTION_LEVEL,
@@ -10,4 +10,4 @@ export const IMAGE_GENERATOR_OPTIONS = {
 	rendererOpts: {
 		quality: 0.5
 	}
-};
+}

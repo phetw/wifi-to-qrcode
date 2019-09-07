@@ -1,5 +1,5 @@
-import { Component } from 'preact';
-import './index.css';
+import { Component } from 'preact'
+import './index.css'
 
 export default class Form extends Component {
 	render() {
@@ -32,6 +32,6 @@ export default class Form extends Component {
 				</fieldset>
 				<button onClick={console.log('generate')}>Generate</button>
 			</form>
-		);
+		)
 	}
 }

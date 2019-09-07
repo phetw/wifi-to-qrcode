@@ -16,6 +16,7 @@
 	},
 	"devDependencies": {
 		"eslint": "^6.1.0",
+		"eslint-config-prettier": "^6.2.0",
 		"eslint-config-synacor": "^3.0.4",
 		"husky": "^3.0.3",
 		"preact-cli": "^3.0.0-rc.1",
