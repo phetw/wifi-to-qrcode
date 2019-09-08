@@ -42,8 +42,6 @@ h3 {
 }
 
 button {
-	cursor: pointer;
-
 	margin: 1rem 0;
 	padding: 0.35rem 1rem;
 
@@ -51,12 +49,22 @@ button {
 
 	border-radius: 3px;
 	border-style: solid;
-	border-color: var(--polar-dark);
 
 	transition: color ease 250ms, border-color ease 250ms;
 }
 
-button:hover {
+button:enabled {
+	cursor: pointer;
+	border-color: var(--polar-dark);
+}
+
+button:disabled {
+	cursor: not-allowed;
+	border-color: var(--polar-light);
+}
+
+
+button:enabled + button:hover {
 	color: var(--polar-light);
 	border-color: var(--polar-light);
 }
