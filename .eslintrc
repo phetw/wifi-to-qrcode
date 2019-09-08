@@ -6,7 +6,7 @@
 		"node": true,
 		"es6": true
 	},
-	"plugins": ["babel", "react", "prettier"],
+	"plugins": ["react", "prettier"],
 	"settings": {
 		"react": {
 			"pragma": "h",
@@ -22,7 +22,7 @@
 	"rules": {
 		"no-console": 1,
 		"no-empty": 0,
-		"semi": 2,
+		"semi": 0,
 		"keyword-spacing": 2,
 		"require-atomic-updates": 0,
 		"react/no-string-refs": 2,
