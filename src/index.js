@@ -10,8 +10,6 @@ export default class App extends Component {
 	}
 
 	generate = e => {
-		console.log('WIFI =>', e)
-
 		this.setState({
 			hidden: false,
 			wifiInformation: e
@@ -31,4 +29,13 @@ export default class App extends Component {
 			</Card>
 		)
 	}
+}
+
+
+const rootElement = document.getElementById("root");
+
+if (rootElement.hasChildNodes()) {
+	preact.render(<App />, rootElement, rootElement.firstElementChild);
+} else {
+	preact.render(<App />, rootElement);
 }
