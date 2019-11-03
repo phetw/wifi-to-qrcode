@@ -25,7 +25,7 @@
 	},
 	"browserslist": [
 		"> 1%",
-		"IE >= 9",
+		"IE 11",
 		"last 2 versions"
 	]
 }
