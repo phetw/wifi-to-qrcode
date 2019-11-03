@@ -10,8 +10,6 @@ export default class App extends Component {
 	}
 
 	generate = e => {
-		console.log('WIFI =>', e)
-
 		this.setState({
 			hidden: false,
 			wifiInformation: e

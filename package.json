@@ -10,9 +10,9 @@
 		"lint": "eslint src"
 	},
 	"dependencies": {
-		"preact": "^10.0.0-rc.1",
-		"preact-render-to-string": "^5.0.6",
-		"qrcode": "^1.4.1"
+		"preact": "^10.0.1",
+		"preact-render-to-string": "^5.1.0",
+		"qrcode": "^1.4.2"
 	},
 	"devDependencies": {
 		"eslint": "^6.1.0",
